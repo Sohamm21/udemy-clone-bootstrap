@@ -1,0 +1,185 @@
+#logo {
+    padding: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    height: 70px;
+    width: 120px;
+}
+
+.search-field {
+    width: 100%;
+    padding: 10px 5px 15px 15px;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    background-color: transparent;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.search-button {
+    background: transparent;
+    border: none;
+    margin-left: 5px;
+    margin-top: auto;
+    margin-bottom: 15px;
+    outline: none;
+    margin-right: -2px;
+    cursor: pointer;
+    /* margin-left: -33px; */
+}
+
+.search-button img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+.searchBar {
+    width: 720px;
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 25px;
+    border-width: 1px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+}
+
+.iconStyle-button {
+    background: transparent;
+    border: none;
+    margin-left: 10px;
+    margin-top: 14px;
+    outline: none;
+    margin-right: 1px;
+    cursor: pointer;
+}
+
+.iconStyle-button img {
+    width: 26px;
+    height: 26px;
+    object-fit: cover;
+}
+
+.botNav_text{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 13.5px;
+}
+
+.botNav_padding{
+    white-space: nowrap;
+}
+
+.a1{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+}
+
+.billboard{
+    background-color: rgb(165,226,208);
+    margin-top: -48px;
+    height: 55%;
+    margin-left: 8%;
+    width: 85%;
+    position: absolute;
+    display: inline;
+}
+
+.billboard_inner{
+    margin: 5% 0 0 5%;
+    background-color: white;
+    width: 40%;
+    padding: 20px;
+}
+
+.billboard_img{
+    height: 80%;
+    width: 26%;
+    margin-left: 60%;
+    margin-top: -17%;
+    position: absolute;
+}
+
+.below_billboard{
+    margin-top: 24%;
+    margin-left: 8%;
+}
+
+.continue_learning{
+    width: 30%;
+    height: 80%;
+    display: inline;
+    padding-top: 20px;
+}
+
+.card_text{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.card_text_opacity{
+    color: rgba(88, 87, 87, 0.985);
+    font-size: 12px;
+}
+
+#price{
+    margin-top: 30%;
+    font-weight: bold;
+}
+
+.course:hover{
+    background-color: rgba(238, 238, 238, 0.727);
+    cursor: pointer;
+}
+
+#purple_text{
+    color: #5624d0;
+    font-weight: bold;
+}
+
+.videosList {
+    float: left;
+    padding: 5px;
+    display: block;
+}
+
+.videosThumbnail {
+    height: 120px;
+    width: 192px;
+}
+
+#wrapper {
+    height: 100px;
+    width: 193px;
+    margin-left: 10px;
+}
+
+#inner1 {
+    float: left;
+}
+
+#inner2 {
+    float: left;
+    clear: left;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container>div {
+    margin-right: 10px;
+    margin-left: -20px;
+    padding: 10px;
+}

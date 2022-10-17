@@ -1,0 +1,38 @@
+.D3 {
+    background-color: green;
+    text-align: left;
+    font-size: 10px;
+}
+
+.D1 {
+    background-color: red;
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.D2 {
+    background-color: yellow;
+    text-align: center;
+    font-size: 245px;
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto;
+    width: 50%; */
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: orangered !important;
+}
+
+/* .carousel .carousel-item {
+    height: 500px;
+  }
+  
+  .carousel-item img {
+      position: absolute;
+      object-fit: cover;
+      top: 0;
+      left: 0;
+      min-height: 500px;
+  } */

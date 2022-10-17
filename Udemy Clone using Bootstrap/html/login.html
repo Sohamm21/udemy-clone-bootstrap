@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class=".container-fluid">
+        <div class="row border">
+            <div class="col">
+                <a href="/html/index.html" class="a1">
+                    <img id="logo"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Udemy_logo.svg/2560px-Udemy_logo.svg.png"
+                        alt="udemy_logo">
+                </a>
+
+            </div>
+            <div class="col" style="margin-top: auto; margin-bottom: auto; margin-left: -20px;">
+                <a href="" class="a1">
+                    Categories
+                </a>
+            </div>
+            <div class="col-5 searchBar">
+                <form action="/" class="form">
+                    <button type="submit" class="search-button">
+                        <img src="/Images/search_icon.png">
+                    </button>
+                    <input type="search" placeholder="Search for anything" class="search-field udemyFont">
+                </form>
+            </div>
+            <div class="col" style="margin-top: auto; margin-bottom: auto; white-space: nowrap;">
+                <a href="" class="a1">
+                    Udemy Business
+                </a>
+            </div>
+            <div class="col" style="margin-top: auto; margin-bottom: auto; white-space: nowrap;">
+                <a href="" class="a1">
+                    Teach on Udemy
+                </a>
+            </div>
+            <div class="col" style="margin-top: auto; margin-bottom: auto; white-space: nowrap;">
+                <a href="" class="a1">
+                    My Learning
+                </a>
+            </div>
+            <div class="col" style="margin-top: auto; margin-bottom: auto; white-space: nowrap;">
+                <img src="/images/heart_icon.png" alt="heart_icon" style="height: 22px; width:22px">
+            </div>
+            <div class="col" style="margin-top: auto; margin-bottom: auto; white-space: nowrap;">
+                <img src="/images/shopping_cart_icon.png" alt="shopping_cart_icon" style="height: 22px; width:22px">
+            </div>
+            <div class="col" style="margin-top: auto; margin-bottom: auto;">
+                <img src="/images/bell_icon.png" alt="bell_icon" style="height: 22px; width:22px">
+            </div>
+            <div class="col" style="margin-top: auto; margin-bottom: auto;">
+                <img src="/images/user_icon.png" alt="user_icon" style="height: 22px; width:22px">
+            </div>
+        </div>
+        <div class="row shadow-sm p-3 mb-5 bg-white" style="z-index: 2; position: relative;">
+            <div class="col botNav_text botNav_padding" style="margin-left: 180px;">
+                <a href="" class="a1">Development</a>
+            </div>
+            <div class="col botNav_text botNav_padding" style="margin-left: -15px;">
+                <a href="" class="a1">Business</a>
+            </div>
+            <div class="col botNav_text botNav_padding" style="margin-left: -45px;">
+                <a href="" class="a1">Finance & Accounting</a>
+            </div>
+            <div class="col botNav_text botNav_padding">
+                <a href="" class="a1">IT & Software</a>
+            </div>
+            <div class="col botNav_text botNav_padding" style="margin-left: -25px;">
+                <a href="" class="a1">Office Productivity</a>
+            </div>
+            <div class="col botNav_text botNav_padding">
+                <a href="" class="a1">Personal Development</a>
+            </div>
+            <div class="col botNav_text botNav_padding" style="margin-left: 5px;">
+                <a href="" class="a1">Design</a>
+            </div>
+            <div class="col botNav_text botNav_padding" style="margin-left: -45px;">
+                <a href="" class="a1">Marketing</a>
+            </div>
+            <div class="col botNav_text botNav_padding" style="margin-left: -35px;">
+                <a href="" class="a1">Health & Fitness</a>
+            </div>
+            <div class="col botNav_text botNav_padding" style="margin-right: 180px;">
+                <a href="" class="a1">Music</a>
+            </div>
+        </div>
+
+        <div class="container d-flex justify-content-center">
+            <h5>Log in to your Udemy account</h5>
+        </div>
+        <hr style="margin-left: 40%; margin-right: 40%;">
+
+        <div id="parent" style="margin-left: 41%; margin-right: 40%;">
+            <div class="border shadow-sm p-3" style="padding: 10px; margin-bottom: 10px;"><a href="" class="a1">Continue
+                    with Facebook</a></div>
+            <div class="border shadow-sm p-3" style="padding: 10px; margin-bottom: 10px;"><a href="" class="a1">Continue
+                    with Google</a></div>
+            <div class="border shadow-sm p-3" style="padding: 10px; margin-bottom: 10px;"><a href="" class="a1">Continue
+                    with Apple</a></div>
+            <form name="myform" method="post" action="" onsubmit="return validateform()">
+                Name: <input type="email" class="form-control" name="email1">
+                Password: <input type="password" class="form-control" name="password"><br />
+                <button type="submit" class="btn rounded-0" style="background-color: blueviolet; width: 100%;">
+                    <b style="color: white;">Log In</b>
+                </button>
+
+            </form>
+        </div>
+
+        <script>
+            function validateform() {
+                var name = document.myform.email1.value;
+                var password = document.myform.password.value;
+
+                if (name == null || name == "") {
+                    alert("Email can't be blank");
+                    return false;
+                } else if (password.length < 6) {
+                    alert("Password must be at least 6 characters long.");
+                    return false;
+                }
+            }
+        </script>
+</body>
+
+</html>
